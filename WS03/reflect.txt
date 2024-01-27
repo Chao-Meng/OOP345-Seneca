@@ -1,0 +1,13 @@
+*
+    ==================================================
+    Workshop 3 Part 2:
+    ==================================================
+    Name   :Chao Meng
+    ID     :128438215
+    Email  :cmeng14@myseneca.ca
+    Section:ZBB
+    Date   :06/5/2022
+*/
+
+Sorry, professor. Due to the IDE, it shows me many errors that should not be errors. I spent a lot of time on it , but i found there were no those errors after I restarted the IDE(visual studio 2022 community version). 
+I will complete part 2 and submit it.

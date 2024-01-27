@@ -1,0 +1,5 @@
+﻿  w8_p1.cpp
+  WritingRecord.cpp
+F:\CPA\3rd_OOP345\workshop\OOP-Workshops-main\WS08\part 1\w8_p1\WritingRecord.cpp(37,28): warning C4101: 'msg': unreferenced local variable
+  Generating Code...
+  w8_p1.vcxproj -> F:\CPA\3rd_OOP345\workshop\OOP-Workshops-main\WS08\part 1\w8_p1\x64\Debug\w8_p1.exe

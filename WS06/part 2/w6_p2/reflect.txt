@@ -1,0 +1,15 @@
+*
+    ==================================================
+    Workshop 6 Part 2:
+    ==================================================
+    Name   :Chao Meng
+    ID     :128438215
+    Email  :cmeng14@myseneca.ca
+    Section:ZBB
+    Date   :07/10/2022
+*/
+If the vector is not emptied, many elements in the vector may be pushed back to the vector every time it loops in the loop. This will affect the use and efficiency of the data, and also lead to the vector needs to constantly expand the memory space, which not only leads to the waste of memory space, but also will cause memory leaks or even program crashes.
+
+Check whether the extracted field matches the expected one, including checking the type and content of the field, such as whether it is a character or a number, etc. If it is a character, check whether it is the expected one.
+
+I think it is better not to do that. Although manipulating pointers can cause a lot of trouble, manipulating pointers is a lot more efficient than manipulating objects.

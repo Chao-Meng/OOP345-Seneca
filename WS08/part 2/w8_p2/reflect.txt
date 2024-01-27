@@ -1,0 +1,16 @@
+*
+    ==================================================
+    Workshop 8 Part 2:
+    ==================================================
+    Name   :Chao Meng
+    ID     :128438215
+    Email  :cmeng14@myseneca.ca
+    Section:ZBB
+    Date   :07/23/2022
+*/
+For Raw pointer, when new a piece of memory space, we need to release the memory after use, otherwise it will cause a memory leak. For example, in writeRaw,the memory is new for temp, and then it needs to be deleted. 
+temp = new EmployeeWage(emp[i].name, sal[j].salary);
+temp->rangeValidator();
+activeEmp += temp;
+delete temp;
+But for smart pointers, we only need to request the required resources and leave the release to the smart pointers, so we don't have to worry about memory leaks.

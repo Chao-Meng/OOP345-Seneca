@@ -1,0 +1,23 @@
+*
+    ==================================================
+    Workshop 1 Part 2:
+    ==================================================
+    Name   :Chao Meng
+    ID     :128438215
+    Email  :cmeng14@myseneca.ca
+    Section:ZBB
+    Date   :05/20/2022
+*/
+
+In this workshop, This foodorder module declares 2 global variables g_taxrate, g_dailydiscount and specifies the logical relationship between them in this module, also these two variables are applied in the main file, so it is externally linked, using the keyword extern. 
+eg: extern double g_taxrate; extern double g_dailydiscount;
+Internal linkage refres to everything only in scope of a translation unit, but external linkage refres to things which exist beyond one translation unit.
+
+Static is used to control how variables are stored and how they are visible. If we define counter as  local variable, then the serial number in the output of each day will all start from 1. This is because the variable is initialized multiple times. Static local variables modified by static are initialized only once, thus the declaration cycle of the variable is extended until the end of the program run. This also means that the counter starts counting from 1 and does not stop until the end of the read data.
+
+In the second part accompanied by changing food description variables into char pointer, it will involve storing data dynamically on the heap, which is one of the more complex knowledge points of c++. First I created destructors to free the memory of the new and point the pointer to nullptr. Also, since the given code involves copying between objects of a class but not deep copy, I created a copy constructor to point the pointer to that memory to avoid code crashes caused by problems like wild pointers.
+
+I also tried to use vector instead of string_find, which I also tried to use, but it adds a lot of work and the code looks redundant. This will be more convenient to use vector on storage strings.
+
+
+

@@ -1,0 +1,7 @@
+﻿  ProteinDatabase.cpp
+  TimedTask.cpp
+  w2_p1.cpp
+F:\CPA\3rd_OOP345\workshop\OOP-Workshops-main\WS02\w2\w2_p1.cpp(90,15): error C2280: 'sdds::ProteinDatabase &sdds::ProteinDatabase::operator =(const sdds::ProteinDatabase &)': attempting to reference a deleted function
+F:\CPA\3rd_OOP345\workshop\OOP-Workshops-main\WS02\w2\ProteinDatabase.h(31): message : compiler has generated 'sdds::ProteinDatabase::operator =' here
+F:\CPA\3rd_OOP345\workshop\OOP-Workshops-main\WS02\w2\ProteinDatabase.h(31,5): message : 'sdds::ProteinDatabase &sdds::ProteinDatabase::operator =(const sdds::ProteinDatabase &)': function was implicitly deleted because 'sdds::ProteinDatabase' has a user-defined move constructor
+  Generating Code...

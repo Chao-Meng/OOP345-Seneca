@@ -1,0 +1,16 @@
+*
+    ==================================================
+    Workshop 7 Part 2:
+    ==================================================
+    Name   :Chao Meng
+    ID     :128438215
+    Email  :cmeng14@myseneca.ca
+    Section:ZBB
+    Date   :07/17/2022
+*/
+The STL used in this workshop includes container and algorithm, specifically vector, list, sort, query sucha as for_each(), find_of(), copy_if(), count_if(). Using the latter methods avoids using manual loops。
+
+This method of manually looping the code is highly readable and it is easy to understand the code.
+The advantages of STL are reusability, high performance, high portability, and cross-platform.
+
+void CovidCollection::sort(const char* parameter) {}, in this function, I will design to throw an error if there is input parameter is invalid.

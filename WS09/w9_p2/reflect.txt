@@ -1,0 +1,12 @@
+*
+    ==================================================
+    Workshop 9 Part 2:
+    ==================================================
+    Name   :Chao Meng
+    ID     :128438215
+    Email  :cmeng14@myseneca.ca
+    Section:ZBB
+    Date   :07/29/2022
+*/
+Binary files will be more space-saving, such as int, double only need 1 byte. char only needs one byte. Also, in memory, the data is stored in binary. If the file is stored in text form, then there is a need to convert the format in the process, and if the amount of data is large then it will affect the efficiency of the code. Also, binary storage does not cause loss of valid bits, which ensures accurate data.
+Binding functions help to determine the location and the number of parameters and modify the function according to the desired output.

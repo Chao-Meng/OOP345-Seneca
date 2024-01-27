@@ -1,0 +1,6 @@
+﻿  CovidCollection.cpp
+F:\CPA\3rd_OOP345\workshop\OOP-Workshops-main\WS07\part 2\w7_p2\CovidCollection.cpp(62,18): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+F:\CPA\3rd_OOP345\workshop\OOP-Workshops-main\WS07\part 2\w7_p2\CovidCollection.cpp(63,18): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  w7_p2.cpp
+  Generating Code...
+  w7_p2.vcxproj -> F:\CPA\3rd_OOP345\workshop\OOP-Workshops-main\WS07\part 2\w7_p2\x64\Debug\w7_p2.exe

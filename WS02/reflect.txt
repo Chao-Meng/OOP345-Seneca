@@ -1,0 +1,15 @@
+*
+    ==================================================
+    Workshop 2 Part 2:
+    ==================================================
+    Name   :Chao Meng
+    ID     :128438215
+    Email  :cmeng14@myseneca.ca
+    Section:ZBB
+    Date   :05/28/2022
+*/
+
+The operation interval of the move constructor and move assignment function is much smaller than that of the copy constructor and copy assignment function. When running a project on my computer, the copy constructor runs in 19944900 nanoseconds, but the move constructor operates in 600 nanoseconds.
+
+ When the object has more content and the object itself requires more memory space (e.g. string in workshop2), copying will take up more memory and take longer time, which affects performance. Similar to the copy constructor, the first argument of the move constructor is a reference to the class type, but this reference is a right-valued reference, it is temporary and requires the use of &&, and the reference points to a variable that will be destroyed. For example, ProteinDatabase::ProteinDatabase(ProteinDatabase&& proteinDatabase). After the resource has been moved, it needs to be destroyed, otherwise the location is repeatedly occupied and the compiler reports an error.
+

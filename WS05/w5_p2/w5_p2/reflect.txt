@@ -1,0 +1,15 @@
+*
+    ==================================================
+    Workshop 5 Part 2:
+    ==================================================
+    Name   :Chao Meng
+    ID     :128438215
+    Email  :cmeng14@myseneca.ca
+    Section:ZBB
+    Date   :06/19/2022
+*/
+The functor is self-documenting by default.  Lambda's need to be stored in variables and Lamdbs is an inplace way create function object. I prefer lamdbs, it allows to write code in a very compact way, it is more efficient. It is more convenient to use lambda if there are a large number of small functions that are called only once.
+
+If this happens, I will set this invalid content to a safe null state in the spellchecker default constructor.
+
+I should create a new module, a new class, implement the common method in this class and then speak movie and book to inherit this method from this class, this will make the code more concise. But I'm very sorry that I didn't do that due to time constraints. 

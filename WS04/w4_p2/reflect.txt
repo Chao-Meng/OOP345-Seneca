@@ -1,0 +1,14 @@
+*
+    ==================================================
+    Workshop 4 Part 2:
+    ==================================================
+    Name   :Chao Meng
+    ID     :128438215
+    Email  :cmeng14@myseneca.ca
+    Section:ZBB
+    Date   :06/12/2022
+*/
+This time the workshop is challenging because of the double pointers. There are such private members in both Child and Confirmorder modules, const sdds::Toy** type. It is an array, and each array member is a pointer to an object of type toy.
+Both Child and Confirmorder are associated with toy. I think the relationship between confirmorder and toy can be more closely described as aggregation, they have different life cycles, but confirmorder is composed of toy (toy order). So the relationship between them is aggregation.
+When I was doing the operator+= function of Confirmorder, I misunderstood the topic, so I new the memory twice for toy**, but when I updated Confirmorder it didn't work, because update needs to modify the same memory address to take effect, and  the new memory is not the original one. After that, I re-read the question again and found that when toy does not exist in array, only the address of toy needs to be stored. 
+
